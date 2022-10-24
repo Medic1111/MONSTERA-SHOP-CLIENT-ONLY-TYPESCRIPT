@@ -1,0 +1,60 @@
+.li {
+  width: 100%;
+  max-width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 3px;
+  padding: 0.5em;
+}
+
+.name {
+  color: rgb(21, 55, 38);
+  font-size: 2em;
+  letter-spacing: 1.2px;
+}
+.price {
+  color: rgb(21, 55, 38);
+  font-size: 2em;
+  letter-spacing: 1.2px;
+}
+.quantity {
+  margin-left: 1em;
+}
+
+.removeBtn {
+  background-color: transparent;
+  border: none;
+  font-size: 1em;
+  color: rgb(178, 140, 42);
+  font-weight: 600;
+  margin-left: 1em;
+  cursor: pointer;
+}
+.img {
+  height: 80%;
+  border-radius: 2px;
+  width: 4vw;
+}
+
+.div {
+  height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+  width: 50%;
+}
+
+@media (max-width: 798px) {
+  .img {
+    width: 12vw;
+  }
+  .name {
+    max-width: 30%;
+  }
+  .div {
+    max-width: 50%;
+  }
+}

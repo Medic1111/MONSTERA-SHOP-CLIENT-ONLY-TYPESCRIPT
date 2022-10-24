@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+# MONSTERA-SHOP-ClientOnly-NoRedux-TypeScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+[Original Full stack here](https://github.com/Medic1111/MONSTERA-SHOP-MERN-STRIPE)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+> Typescript, no Redux, client only version of: Minimalist online shopping for monstera plants
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[LIVE-VERSION](https://monstera-shop.herokuapp.com/)
 
-### `npm test`
+![Monstera-shop home page screenshot](./client/public/home.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## TECH:
 
-### `npm run build`
+1. FRONT-END:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React/TypeScript
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## STEPS:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Download the doc and run `npm install` to install all the dependencies
 
-### `npm run eject`
+2. Run `npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Image of a cart with an item in it](./client/public/cart.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Image of checkout page](./client/public/check.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Image of payment confirmation](./client/public/confirm.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## THE IDEA
 
-## Learn More
+###### Minimal Me
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+As a minimalist, I can trully appreciate simple and straight-forwardness in just about any utility
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+While planning on my next project which was set to be an e-commerce, I was very little inspired with the typical...shoes, clothing, material goods in general
+
+What to 'pretend' to sell that would truly inspire me?
+
+###### My Rescue Monstera
+
+The week prior to engaging in this project, I had the pleasure to rescue a suffering monstera and provide it with love and care it much needed
+
+It was love at first sight...and between staring at her and staring at my blank project, the idea came
+
+I would be able to unite a inspiring target, with the minimalist simple approach, to come up with my e-commerce
+
+###### The Goal
+
+The goal was to list the 3 types of monstera plants available widely in the market on a root page
+
+Such page would be extremely easy to navigate, uncluttered, and to the point
+
+Easy on the eye and on the brain, a simple click to add to cart
+
+The cart is to open right away after an item is added, encouraging the purchase process
+
+The user would then have the option to close the cart and continue shopping or proceed to check out
+
+Check out is a simple form
+
+Once payment is processed a confirmation modal appears
