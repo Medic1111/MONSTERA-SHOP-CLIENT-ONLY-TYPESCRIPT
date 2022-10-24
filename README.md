@@ -10,7 +10,7 @@
 
 ---
 
-[LIVE-VERSION](https://monstera-shop.herokuapp.com/)
+[LIVE-VERSION](https://monstera-shop-client-typescript.netlify.app/)
 
 ![Monstera-shop home page screenshot](./client/public/home.png)
 
