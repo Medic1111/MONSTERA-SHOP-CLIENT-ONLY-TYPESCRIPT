@@ -12,7 +12,7 @@
 
 [LIVE-VERSION](https://monstera-shop-client-typescript.netlify.app/)
 
-![Monstera-shop home page screenshot](./client/public/home.png)
+![Monstera-shop home page screenshot](https://raw.githubusercontent.com/Medic1111/MONSTERA-SHOP-MERN-STRIPE/main/client/public/home.png)
 
 ## TECH:
 
@@ -26,11 +26,9 @@
 
 2. Run `npm start`
 
-![Image of a cart with an item in it](./client/public/cart.png)
+![Image of a cart with an item in it](https://raw.githubusercontent.com/Medic1111/MONSTERA-SHOP-MERN-STRIPE/main/client/public/cart.png)
 
-![Image of checkout page](./client/public/check.png)
-
-![Image of payment confirmation](./client/public/confirm.png)
+![Image of checkout page](https://raw.githubusercontent.com/Medic1111/MONSTERA-SHOP-MERN-STRIPE/main/client/public/check.png)
 
 ## THE IDEA
 
