@@ -36,13 +36,14 @@ const Form: React.FC<Props> = ({ id, name, price, src }) => {
   return (
     <form className={classes.form}>
       <input
-        onChange={(e) => setUserInput(Number(e.target.value))}
+        onChange={(e) => setUserInput(parseInt(e.target.value, 10))}
         id="quantity"
         name="quantity"
         value={userInput}
         className={classes.input}
         type="number"
         placeholder="Qty"
+        min={0}
       />
       <button onClick={addToCartHandler} className={classes.btn}>
         ADD
